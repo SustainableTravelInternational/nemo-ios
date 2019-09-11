@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324BE21A2326F80F009167AB /* NemoURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE2192326F80F009167AB /* NemoURLs.swift */; };
+		324BE21C232791F9009167AB /* NemoServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE21B232791F9009167AB /* NemoServiceManager.swift */; };
+		324BE21E2327920E009167AB /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE21D2327920E009167AB /* AuthenticationManager.swift */; };
+		324BE22023279220009167AB /* HomeManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE21F23279220009167AB /* HomeManger.swift */; };
+		324BE22223279229009167AB /* UploadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE22123279229009167AB /* UploadManager.swift */; };
+		324BE22523279BB6009167AB /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE22423279BB6009167AB /* LoginModel.swift */; };
+		324BE22723279D6F009167AB /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE22623279D6F009167AB /* UserModel.swift */; };
+		324BE22C2327A28C009167AB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE22B2327A28C009167AB /* UIView+Extension.swift */; };
+		324BE22E2327A29A009167AB /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE22D2327A29A009167AB /* UILabel+Extension.swift */; };
+		324BE2322327A990009167AB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE2312327A990009167AB /* UIViewController+Extension.swift */; };
+		324BE2342327A9FA009167AB /* NemoConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE2332327A9FA009167AB /* NemoConstants.swift */; };
+		324BE2362327B348009167AB /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE2352327B348009167AB /* Generics.swift */; };
+		324BE2392328ED35009167AB /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE2382328ED35009167AB /* HomeTableViewCell.swift */; };
+		324BE23B2328EE5A009167AB /* SiteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE23A2328EE5A009167AB /* SiteModel.swift */; };
+		324BE23D232901CF009167AB /* UploadImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE23C232901CF009167AB /* UploadImageTableViewCell.swift */; };
+		324BE23F232901D9009167AB /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE23E232901D9009167AB /* LocationTableViewCell.swift */; };
+		324BE241232922B5009167AB /* InformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE240232922B5009167AB /* InformationTableViewCell.swift */; };
+		324BE2432329401B009167AB /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BE2422329401B009167AB /* ForgotPasswordViewController.swift */; };
+		326F9EE6232660E500D5725E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F9EE5232660E500D5725E /* LoginViewController.swift */; };
+		326F9EE8232660F100D5725E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F9EE7232660F100D5725E /* RegisterViewController.swift */; };
+		326F9EEA232660F900D5725E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F9EE9232660F900D5725E /* HomeViewController.swift */; };
+		326F9EEC2326611000D5725E /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F9EEB2326611000D5725E /* UploadImageViewController.swift */; };
+		326F9EEE2326613600D5725E /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326F9EED2326613600D5725E /* WalkthroughViewController.swift */; };
+		32B3D6F7232655EE00D86FD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B3D6F6232655EE00D86FD1 /* AppDelegate.swift */; };
+		32B3D6FC232655EE00D86FD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B3D6FA232655EE00D86FD1 /* Main.storyboard */; };
+		32B3D6FE232655F100D86FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B3D6FD232655F100D86FD1 /* Assets.xcassets */; };
+		32B3D701232655F100D86FD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B3D6FF232655F100D86FD1 /* LaunchScreen.storyboard */; };
+		A0293CBE9128722CA92FBF5F /* Pods_NEMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADD5D8EEA900C1608A26178 /* Pods_NEMO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		324BE2192326F80F009167AB /* NemoURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NemoURLs.swift; sourceTree = "<group>"; };
+		324BE21B232791F9009167AB /* NemoServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NemoServiceManager.swift; sourceTree = "<group>"; };
+		324BE21D2327920E009167AB /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		324BE21F23279220009167AB /* HomeManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeManger.swift; sourceTree = "<group>"; };
+		324BE22123279229009167AB /* UploadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadManager.swift; sourceTree = "<group>"; };
+		324BE22423279BB6009167AB /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		324BE22623279D6F009167AB /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		324BE22B2327A28C009167AB /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		324BE22D2327A29A009167AB /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		324BE2312327A990009167AB /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		324BE2332327A9FA009167AB /* NemoConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NemoConstants.swift; sourceTree = "<group>"; };
+		324BE2352327B348009167AB /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		324BE2382328ED35009167AB /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		324BE23A2328EE5A009167AB /* SiteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteModel.swift; sourceTree = "<group>"; };
+		324BE23C232901CF009167AB /* UploadImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageTableViewCell.swift; sourceTree = "<group>"; };
+		324BE23E232901D9009167AB /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		324BE240232922B5009167AB /* InformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTableViewCell.swift; sourceTree = "<group>"; };
+		324BE2422329401B009167AB /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		326F9EE5232660E500D5725E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		326F9EE7232660F100D5725E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		326F9EE9232660F900D5725E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		326F9EEB2326611000D5725E /* UploadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		326F9EED2326613600D5725E /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		32B3D6F3232655EE00D86FD1 /* NEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B3D6F6232655EE00D86FD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32B3D6FB232655EE00D86FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32B3D6FD232655F100D86FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B3D700232655F100D86FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32B3D702232655F100D86FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B306E5440529BDAF586A95FA /* Pods-NEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEMO.debug.xcconfig"; path = "Target Support Files/Pods-NEMO/Pods-NEMO.debug.xcconfig"; sourceTree = "<group>"; };
+		CADD5D8EEA900C1608A26178 /* Pods_NEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D1C554D40D939AA92E54B4 /* Pods-NEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEMO.release.xcconfig"; path = "Target Support Files/Pods-NEMO/Pods-NEMO.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B3D6F0232655EE00D86FD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0293CBE9128722CA92FBF5F /* Pods_NEMO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324BE2182326F7E6009167AB /* ServiceProvider */ = {
+			isa = PBXGroup;
+			children = (
+				324BE2192326F80F009167AB /* NemoURLs.swift */,
+				324BE21B232791F9009167AB /* NemoServiceManager.swift */,
+				324BE21D2327920E009167AB /* AuthenticationManager.swift */,
+				324BE21F23279220009167AB /* HomeManger.swift */,
+				324BE22123279229009167AB /* UploadManager.swift */,
+			);
+			path = ServiceProvider;
+			sourceTree = "<group>";
+		};
+		324BE22323279B30009167AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				324BE22423279BB6009167AB /* LoginModel.swift */,
+				324BE22623279D6F009167AB /* UserModel.swift */,
+				324BE23A2328EE5A009167AB /* SiteModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		324BE2282327A1A9009167AB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				324BE22B2327A28C009167AB /* UIView+Extension.swift */,
+				324BE22D2327A29A009167AB /* UILabel+Extension.swift */,
+				324BE2312327A990009167AB /* UIViewController+Extension.swift */,
+				324BE2332327A9FA009167AB /* NemoConstants.swift */,
+				324BE2352327B348009167AB /* Generics.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		324BE2372328ED05009167AB /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				324BE2382328ED35009167AB /* HomeTableViewCell.swift */,
+				324BE23C232901CF009167AB /* UploadImageTableViewCell.swift */,
+				324BE23E232901D9009167AB /* LocationTableViewCell.swift */,
+				324BE240232922B5009167AB /* InformationTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		326F9EE32326607E00D5725E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				32B3D6FF232655F100D86FD1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		326F9EE42326609D00D5725E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32B3D6F6232655EE00D86FD1 /* AppDelegate.swift */,
+				32B3D702232655F100D86FD1 /* Info.plist */,
+				326F9EE32326607E00D5725E /* Storyboard */,
+				32B3D6FD232655F100D86FD1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		32B3D6EA232655EE00D86FD1 = {
+			isa = PBXGroup;
+			children = (
+				32B3D6F5232655EE00D86FD1 /* NEMO */,
+				32B3D6F4232655EE00D86FD1 /* Products */,
+				84478645D1FDE7BD5B2A11F0 /* Pods */,
+				B4C2E4EEE9B2B57F10EFFD40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32B3D6F4232655EE00D86FD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B3D6F3232655EE00D86FD1 /* NEMO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B3D6F5232655EE00D86FD1 /* NEMO */ = {
+			isa = PBXGroup;
+			children = (
+				324BE2282327A1A9009167AB /* Helpers */,
+				324BE22323279B30009167AB /* Models */,
+				324BE2182326F7E6009167AB /* ServiceProvider */,
+				324BE2372328ED05009167AB /* CustomCells */,
+				326F9EE5232660E500D5725E /* LoginViewController.swift */,
+				326F9EE7232660F100D5725E /* RegisterViewController.swift */,
+				326F9EE9232660F900D5725E /* HomeViewController.swift */,
+				326F9EED2326613600D5725E /* WalkthroughViewController.swift */,
+				326F9EEB2326611000D5725E /* UploadImageViewController.swift */,
+				324BE2422329401B009167AB /* ForgotPasswordViewController.swift */,
+				32B3D6FA232655EE00D86FD1 /* Main.storyboard */,
+				326F9EE42326609D00D5725E /* Resources */,
+			);
+			path = NEMO;
+			sourceTree = "<group>";
+		};
+		84478645D1FDE7BD5B2A11F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B306E5440529BDAF586A95FA /* Pods-NEMO.debug.xcconfig */,
+				E9D1C554D40D939AA92E54B4 /* Pods-NEMO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4C2E4EEE9B2B57F10EFFD40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CADD5D8EEA900C1608A26178 /* Pods_NEMO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B3D6F2232655EE00D86FD1 /* NEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B3D705232655F100D86FD1 /* Build configuration list for PBXNativeTarget "NEMO" */;
+			buildPhases = (
+				2C569676E639669EA6C4177F /* [CP] Check Pods Manifest.lock */,
+				32B3D6EF232655EE00D86FD1 /* Sources */,
+				32B3D6F0232655EE00D86FD1 /* Frameworks */,
+				32B3D6F1232655EE00D86FD1 /* Resources */,
+				46744A3343B9E452F761A635 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEMO;
+			productName = NEMO;
+			productReference = 32B3D6F3232655EE00D86FD1 /* NEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B3D6EB232655EE00D86FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Manar Magdy";
+				TargetAttributes = {
+					32B3D6F2232655EE00D86FD1 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 32B3D6EE232655EE00D86FD1 /* Build configuration list for PBXProject "NEMO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B3D6EA232655EE00D86FD1;
+			productRefGroup = 32B3D6F4232655EE00D86FD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B3D6F2232655EE00D86FD1 /* NEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B3D6F1232655EE00D86FD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B3D701232655F100D86FD1 /* LaunchScreen.storyboard in Resources */,
+				32B3D6FE232655F100D86FD1 /* Assets.xcassets in Resources */,
+				32B3D6FC232655EE00D86FD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C569676E639669EA6C4177F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NEMO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46744A3343B9E452F761A635 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NEMO/Pods-NEMO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NEMO/Pods-NEMO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NEMO/Pods-NEMO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B3D6EF232655EE00D86FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324BE22223279229009167AB /* UploadManager.swift in Sources */,
+				324BE22523279BB6009167AB /* LoginModel.swift in Sources */,
+				326F9EE8232660F100D5725E /* RegisterViewController.swift in Sources */,
+				324BE2362327B348009167AB /* Generics.swift in Sources */,
+				324BE2322327A990009167AB /* UIViewController+Extension.swift in Sources */,
+				324BE2392328ED35009167AB /* HomeTableViewCell.swift in Sources */,
+				324BE22C2327A28C009167AB /* UIView+Extension.swift in Sources */,
+				324BE23B2328EE5A009167AB /* SiteModel.swift in Sources */,
+				326F9EE6232660E500D5725E /* LoginViewController.swift in Sources */,
+				326F9EEC2326611000D5725E /* UploadImageViewController.swift in Sources */,
+				324BE2432329401B009167AB /* ForgotPasswordViewController.swift in Sources */,
+				324BE22723279D6F009167AB /* UserModel.swift in Sources */,
+				324BE22E2327A29A009167AB /* UILabel+Extension.swift in Sources */,
+				324BE21E2327920E009167AB /* AuthenticationManager.swift in Sources */,
+				326F9EEE2326613600D5725E /* WalkthroughViewController.swift in Sources */,
+				32B3D6F7232655EE00D86FD1 /* AppDelegate.swift in Sources */,
+				324BE23D232901CF009167AB /* UploadImageTableViewCell.swift in Sources */,
+				324BE21A2326F80F009167AB /* NemoURLs.swift in Sources */,
+				324BE241232922B5009167AB /* InformationTableViewCell.swift in Sources */,
+				324BE21C232791F9009167AB /* NemoServiceManager.swift in Sources */,
+				324BE23F232901D9009167AB /* LocationTableViewCell.swift in Sources */,
+				324BE22023279220009167AB /* HomeManger.swift in Sources */,
+				324BE2342327A9FA009167AB /* NemoConstants.swift in Sources */,
+				326F9EEA232660F900D5725E /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32B3D6FA232655EE00D86FD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B3D6FB232655EE00D86FD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32B3D6FF232655F100D86FD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B3D700232655F100D86FD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B3D703232655F100D86FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32B3D704232655F100D86FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B3D706232655F100D86FD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B306E5440529BDAF586A95FA /* Pods-NEMO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/NEMO/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.booking-hackathon.NEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		32B3D707232655F100D86FD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D1C554D40D939AA92E54B4 /* Pods-NEMO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/NEMO/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.booking-hackathon.NEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B3D6EE232655EE00D86FD1 /* Build configuration list for PBXProject "NEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B3D703232655F100D86FD1 /* Debug */,
+				32B3D704232655F100D86FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B3D705232655F100D86FD1 /* Build configuration list for PBXNativeTarget "NEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B3D706232655F100D86FD1 /* Debug */,
+				32B3D707232655F100D86FD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B3D6EB232655EE00D86FD1 /* Project object */;
+}

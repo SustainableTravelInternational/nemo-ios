@@ -1,0 +1,14 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework
+${DWARF_DSYM_FOLDER_PATH}/Alamofire.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQDropDownTextField.framework
+${DWARF_DSYM_FOLDER_PATH}/IQDropDownTextField.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework
+${DWARF_DSYM_FOLDER_PATH}/IQKeyboardManagerSwift.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework
+${DWARF_DSYM_FOLDER_PATH}/ObjectMapper.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework
+${DWARF_DSYM_FOLDER_PATH}/SCLAlertView.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework
+${DWARF_DSYM_FOLDER_PATH}/SDWebImage.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework
+${DWARF_DSYM_FOLDER_PATH}/SVProgressHUD.framework.dSYM

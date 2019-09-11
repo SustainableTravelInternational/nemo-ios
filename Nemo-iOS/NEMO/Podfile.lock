@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.9.0)
+  - IQDropDownTextField (1.1.1)
+  - IQKeyboardManagerSwift (6.4.2)
+  - ObjectMapper (3.5.1)
+  - SCLAlertView (0.8)
+  - SDWebImage (5.1.1):
+    - SDWebImage/Core (= 5.1.1)
+  - SDWebImage/Core (5.1.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQDropDownTextField
+  - IQKeyboardManagerSwift
+  - ObjectMapper
+  - SCLAlertView
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IQDropDownTextField
+    - IQKeyboardManagerSwift
+    - ObjectMapper
+    - SCLAlertView
+    - SDWebImage
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  IQDropDownTextField: 3d2e5728a2b83ff5dbb14cb9b497a80005124cbe
+  IQKeyboardManagerSwift: 79a3ec200dfb41cb66a89b8575417b5378107c5d
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: cdae68c2878c1485b7db625b5a557bb5899634da
+
+COCOAPODS: 1.7.5

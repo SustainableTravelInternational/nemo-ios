@@ -1,0 +1,15 @@
+${PODS_ROOT}/Target Support Files/Pods-NEMO/Pods-NEMO-frameworks.sh
+${PODS_ROOT}/Alamofire/Alamofire.framework
+${PODS_ROOT}/Alamofire/Alamofire.framework.dSYM
+${PODS_ROOT}/IQDropDownTextField/IQDropDownTextField.framework
+${PODS_ROOT}/IQDropDownTextField/IQDropDownTextField.framework.dSYM
+${PODS_ROOT}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${PODS_ROOT}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework.dSYM
+${PODS_ROOT}/ObjectMapper/ObjectMapper.framework
+${PODS_ROOT}/ObjectMapper/ObjectMapper.framework.dSYM
+${PODS_ROOT}/SCLAlertView/SCLAlertView.framework
+${PODS_ROOT}/SCLAlertView/SCLAlertView.framework.dSYM
+${PODS_ROOT}/SDWebImage/SDWebImage.framework
+${PODS_ROOT}/SDWebImage/SDWebImage.framework.dSYM
+${PODS_ROOT}/SVProgressHUD/SVProgressHUD.framework
+${PODS_ROOT}/SVProgressHUD/SVProgressHUD.framework.dSYM
